@@ -1,0 +1,64 @@
+#root{
+  display: flex;
+}
+
+.div-app{
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredientes{
+  height: 20px;
+  width: 200px;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.Pao-topo{
+  height: 30px;
+  background-color: #f5d676;
+  border-radius: 300px 300px 40px 40px;
+}
+
+.pao-baixo{
+  height: 30px;
+  background-color: #f5d676;
+  border-radius: 40px 40px 300px 300px;
+}
+
+.Alface{
+  background-color: #7ed957;
+}
+
+.tomate{
+  background-color: #ff4d4d;
+}
+
+.hamburguer{
+  background-color: #63321c;
+}
+
+.queijo{
+  background-color: #ffcc33;
+}
+
+.cebola{
+  background-color: #D18CDE;
+}
+
+.bacon{
+  background-color: #C45D3B;
+}
+
+.pedidos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pedidos h2{
+  margin: 10px 0;
+}
